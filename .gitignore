@@ -1,0 +1,44 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Raw datasets (too large for GitHub)
+data/*.csv
+data/*.parquet
+data/*.xlsx
+
+# Generated model files
+*.joblib
+*.pkl
+
+# Generated results and archives
+bus_baseline_outputs/
+results/
+outputs/
+*.zip
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
